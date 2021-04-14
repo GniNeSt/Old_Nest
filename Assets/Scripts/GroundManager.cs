@@ -17,24 +17,24 @@ public class GroundManager : MonoBehaviour
 
     public GameObject player;
     public GameObject background;
-    private int count;
-    private int backgroundsize = 90;
-    private int camerasize = 70;
+    public static int poscount;
+    static int backgroundsize = 90;
+    static int camerasize = 70;
     private Vector3 playerPos;
 
     void Start()
     {
-        count = 0;
+        poscount = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
         playerPos = player.transform.position;
-        if (playerPos.x > 20 + 90 * (count))
+        if (playerPos.x > 20 + 90 * (poscount))
         {
-            count += 1;
-            Instantiate(background, this.transform.position + new Vector3(90,0,0) * count, Quaternion.identity);
+            poscount += 1;
+            Instantiate(background, this.transform.position + new Vector3(90,0,0) * poscount, Quaternion.identity);
         }
     }
 }
