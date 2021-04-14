@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 71655009}
   - component: {fileID: 71655010}
   m_Layer: 0
-  m_Name: Player (1)
+  m_Name: Goblin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 71655008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5, y: -5, z: -1}
+  m_LocalPosition: {x: 5, y: -2, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 237434736}
@@ -194,9 +194,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d38f9c09269a7c946a36a13cb20d047e, type: 3}
+  m_Sprite: {fileID: -550455310974496749, guid: c54bc7f5c1bcfe549b7cd269c6fe0bdc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 7.5, y: 7.5}
@@ -385,7 +385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1364205254}
-  isRight: -1
+  isRight: 1
 --- !u!61 &253690484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -639,7 +639,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d38f9c09269a7c946a36a13cb20d047e, type: 3}
+  m_Sprite: {fileID: -986740441857672246, guid: 5b445461e1c14fd4f959311c98cb740e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -658,7 +658,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364205254}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3}
+  m_LocalPosition: {x: 0, y: 3, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1956996387}
@@ -690,7 +690,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635054279}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23, y: -12, z: 0}
+  m_LocalPosition: {x: 23, y: -13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1756466339}
@@ -797,7 +797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1364205254}
-  isRight: -1
+  isRight: 1
 --- !u!61 &1756466342
 BoxCollider2D:
   m_ObjectHideFlags: 0
