@@ -22,7 +22,9 @@ public class ChoiceManager : MonoBehaviour
         if (player.transform.position.x < 10 + 90 * (nextPosX))
         {
             player.transform.position += Vector3.right * isRight * moveSpeed * Time.deltaTime;   
-        } else {
+        } 
+        else 
+        {
             moveSpeed = 0f;
         }
     }
