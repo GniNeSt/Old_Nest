@@ -19,7 +19,7 @@ public class ChoiceManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.transform.position.x < 10 + 90 * (nextPosX))
+        if (player.transform.position.x < 90 * (nextPosX))
         {
             player.transform.position += Vector3.right * isRight * moveSpeed * Time.deltaTime;   
         } 
