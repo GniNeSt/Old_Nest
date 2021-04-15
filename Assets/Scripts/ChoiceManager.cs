@@ -30,7 +30,6 @@ public class ChoiceManager : MonoBehaviour
     }
 
     private void OnMouseDown() {
-        Debug.Log(this.name);
         moveSpeed = 30f;
         nextPosX = GroundManager.poscount + 1;
     }
