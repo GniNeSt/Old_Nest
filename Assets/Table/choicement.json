@@ -1,0 +1,44 @@
+{
+    "Goblin": 
+    {
+        "choice_first" : "Goblin First",
+        "choice_second" : "Goblin Second",
+        "choice_third" : "Goblin Third",
+        "choice_fourth" : "Goblin Fourth"
+    },
+    "Gnoll":
+    {
+        "choice_first" : "Gnoll First",
+        "choice_second" : "Gnoll Second",
+        "choice_third" : "Gnoll Third",
+        "choice_fourth" : "Gnoll Fourth"
+    },
+    "Chicken":
+    {
+        "choice_first" : "Chicken First",
+        "choice_second" : "Chicken Second",
+        "choice_third" : "Chicken Third",
+        "choice_fourth" : "Chicken Fourth"
+    },
+    "Wolf":
+    {
+        "choice_first" : "Wolf First",
+        "choice_second" : "Wolf Second",
+        "choice_third" : "Wolf Third",
+        "choice_fourth" : "Wolf Fourth"
+    },
+    "Boar":
+    {
+        "choice_first" : "Boar First",
+        "choice_second" : "Boar Second",
+        "choice_third" : "Boar Third",
+        "choice_fourth" : "Boar Fourth"
+    },
+    "Ork":
+    {
+        "choice_first" : "Ork First",
+        "choice_second" : "Ork Second",
+        "choice_third" : "Ork Third",
+        "choice_fourth" : "Ork Fourth"
+    }
+}
