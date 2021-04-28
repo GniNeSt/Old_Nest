@@ -5,44 +5,44 @@
     ],
     "Goblin": 
     {
-        "first" : "Goblin First",
-        "second" : "Goblin Second",
-        "third" : "Goblin Third",
-        "fourth" : "Goblin Fourth"
+        "first" : "고블린을 공격한다.",
+        "second" : "고블린에게서 도망친다",
+        "third" : "고블린을 생포한다",
+        "fourth" : "고블린에게 말을 걸어본다"
     },
     "Gnoll":
     {
-        "first" : "Gnoll First",
-        "second" : "Gnoll Second",
-        "third" : "Gnoll Third",
-        "fourth" : "Gnoll Fourth"
+        "first" : "놀을 공격한다",
+        "second" : "놀에게 뼈다귀를 던지고 도망간다",
+        "third" : "놀을 생포한다",
+        "fourth" : "놀에게 말을 걸어본다"
     },
     "Chicken":
     {
-        "first" : "Chicken First",
-        "second" : "Chicken Second",
-        "third" : "Chicken Third",
-        "fourth" : "Chicken Fourth"
+        "first" : "매우 흉포한 와이번에게 모이를 준다",
+        "second" : "(놀을 생포했을시) 와이번 쫒던 개가 지붕 쳐다보기 스킬을 시전한다",
+        "third" : "잡아서 튀김을 만들어버린다",
+        "fourth" : "매우 흉포한 와이번을 마을 사람들에게 소개시켜준다"
     },
     "Wolf":
     {
-        "first" : "Wolf First",
-        "second" : "Wolf Second",
-        "third" : "Wolf Third",
-        "fourth" : "Wolf Fourth"
+        "first" : "너무나도 잔인한 늑대에게 뼈다귀를 준다",
+        "second" : "(마침 옆에 떨어져있던) 방패를 던져준다.",
+        "third" : "옆마을에 가서 개장수를 불러온다",
+        "fourth" : "매우 흉포한 늑대를 사람들에게 소개시켜준다"
     },
     "Boar":
     {
-        "first" : "Boar First",
-        "second" : "Boar Second",
-        "third" : "Boar Third",
-        "fourth" : "Boar Fourth"
+        "first" : "잡아서 삼겹살을 해먹는다",
+        "second" : "쌈장과 상추를 준비해온다",
+        "third" : "애완돼지를 키워본다",
+        "fourth" : "사이즈가 꽤 크니 마을로 가져다 판다"
     },
     "Ork":
     {
-        "first" : "Ork First",
-        "second" : "Ork Second",
-        "third" : "Ork Third",
-        "fourth" : "Ork Fourth"
+        "first" : "송곳니를 뽑아서 목걸이를 만들어준다",
+        "second" : "뚝배기를 뽀개버린다",
+        "third" : "최소한의 지성을 알아보기 위해 피타고라스의 정리를 물어본다",
+        "fourth" : "종족간의 평화를 제안하고 방심했을때 뒤통수를 친다"
     }
 }
