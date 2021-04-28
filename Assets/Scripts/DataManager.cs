@@ -7,5 +7,8 @@ public class DataManager : MonoBehaviour
     public string choice_first;
     public string choice_second;
     public string choice_third;
-    public string choice_fourth;    
+    public string choice_fourth;
+
+    DataManager d = JsonUtility.FromJson<DataManager>("");
+    
 }

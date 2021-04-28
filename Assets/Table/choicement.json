@@ -1,44 +1,48 @@
 {
+    "EnemyList":
+    [
+        "Goblin","Gnoll","Chicken","Wolf","Boar","Ork"
+    ],
     "Goblin": 
     {
-        "choice_first" : "Goblin First",
-        "choice_second" : "Goblin Second",
-        "choice_third" : "Goblin Third",
-        "choice_fourth" : "Goblin Fourth"
+        "first" : "Goblin First",
+        "second" : "Goblin Second",
+        "third" : "Goblin Third",
+        "fourth" : "Goblin Fourth"
     },
     "Gnoll":
     {
-        "choice_first" : "Gnoll First",
-        "choice_second" : "Gnoll Second",
-        "choice_third" : "Gnoll Third",
-        "choice_fourth" : "Gnoll Fourth"
+        "first" : "Gnoll First",
+        "second" : "Gnoll Second",
+        "third" : "Gnoll Third",
+        "fourth" : "Gnoll Fourth"
     },
     "Chicken":
     {
-        "choice_first" : "Chicken First",
-        "choice_second" : "Chicken Second",
-        "choice_third" : "Chicken Third",
-        "choice_fourth" : "Chicken Fourth"
+        "first" : "Chicken First",
+        "second" : "Chicken Second",
+        "third" : "Chicken Third",
+        "fourth" : "Chicken Fourth"
     },
     "Wolf":
     {
-        "choice_first" : "Wolf First",
-        "choice_second" : "Wolf Second",
-        "choice_third" : "Wolf Third",
-        "choice_fourth" : "Wolf Fourth"
+        "first" : "Wolf First",
+        "second" : "Wolf Second",
+        "third" : "Wolf Third",
+        "fourth" : "Wolf Fourth"
     },
     "Boar":
     {
-        "choice_first" : "Boar First",
-        "choice_second" : "Boar Second",
-        "choice_third" : "Boar Third",
-        "choice_fourth" : "Boar Fourth"
+        "first" : "Boar First",
+        "second" : "Boar Second",
+        "third" : "Boar Third",
+        "fourth" : "Boar Fourth"
     },
     "Ork":
     {
-        "choice_first" : "Ork First",
-        "choice_second" : "Ork Second",
-        "choice_third" : "Ork Third",
-        "choice_fourth" : "Ork Fourth"
+        "first" : "Ork First",
+        "second" : "Ork Second",
+        "third" : "Ork Third",
+        "fourth" : "Ork Fourth"
     }
 }
