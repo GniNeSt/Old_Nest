@@ -19,8 +19,14 @@ public class GroundManager : MonoBehaviour
     public GameObject background;
     public static int poscount;
     static int backgroundsize = 90;
-    static int camerasize = 70;
     private Vector3 playerPos;
+    private GameObject clone;
+    public Sprite Goblin;
+    public Sprite Ork;
+    public Sprite GNoll;
+    public Sprite Wyvern;
+    public Sprite Wolf;
+    public Sprite Boar;
 
     void Start()
     {
@@ -31,10 +37,13 @@ public class GroundManager : MonoBehaviour
     void Update()
     {
         playerPos = player.transform.position;
-        if (playerPos.x > 20 + 90 * (poscount))
+        if (playerPos.x > 20 + backgroundsize * (poscount))
         {
             poscount += 1;
-            Instantiate(background, this.transform.position + new Vector3(90,0,0) * poscount, Quaternion.identity);
+            clone = Instantiate(background, this.transform.position + new Vector3(90,0,0) * poscount, Quaternion.identity);
+            if(poscount % 2 == 1){
+                clone.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = Ork;
+            }
         }
     }
 }
