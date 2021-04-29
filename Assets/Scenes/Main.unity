@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 71655010}
   - component: {fileID: 71655011}
   m_Layer: 0
-  m_Name: Goblin
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -224,7 +224,7 @@ MonoBehaviour:
     second: 
     third: 
     fourth: 
-  player: {fileID: 0}
+  choicemanager: {fileID: 1635054279}
 --- !u!1 &237434735
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,12 +250,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237434735}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 35, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 71655009}
-  m_Father: {fileID: 951954457}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &237434737
 SpriteRenderer:
@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 253690484}
   - component: {fileID: 253690483}
   m_Layer: 0
-  m_Name: choice_second
+  m_Name: third
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -340,7 +340,7 @@ Transform:
   m_Children:
   - {fileID: 1380568788}
   m_Father: {fileID: 1635054280}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &253690482
 SpriteRenderer:
@@ -402,11 +402,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 253690480}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 903fa7f0917af214f9420627514531c1, type: 3}
+  m_Script: {fileID: 11500000, guid: 395fdaf090d092b42a00b01e7c6c014e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1364205254}
-  isRight: 1
 --- !u!61 &253690484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -446,7 +444,7 @@ GameObject:
   - component: {fileID: 428754038}
   - component: {fileID: 428754037}
   m_Layer: 0
-  m_Name: choice_fourth
+  m_Name: fourth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -527,11 +525,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 428754034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 903fa7f0917af214f9420627514531c1, type: 3}
+  m_Script: {fileID: 11500000, guid: 395fdaf090d092b42a00b01e7c6c014e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1364205254}
-  isRight: 1
 --- !u!61 &428754038
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -570,7 +566,7 @@ GameObject:
   - component: {fileID: 596394713}
   - component: {fileID: 596394712}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -615,7 +611,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: what the fuck
+  m_text: Basic Comment
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 244ee44e90a18fd4fac3e4c913f6ab32, type: 2}
   m_sharedMaterial: {fileID: -7906460649016198495, guid: 244ee44e90a18fd4fac3e4c913f6ab32, type: 2}
@@ -739,7 +735,7 @@ GameObject:
   - component: {fileID: 951954457}
   - component: {fileID: 951954458}
   m_Layer: 0
-  m_Name: Grounds
+  m_Name: GroundManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -755,8 +751,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 35, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 237434736}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -774,6 +769,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1364205254}
   background: {fileID: 237434735}
+  Goblin: {fileID: -550455310974496749, guid: c54bc7f5c1bcfe549b7cd269c6fe0bdc, type: 3}
+  Ork: {fileID: -2500865730457817595, guid: d40111ad80f6df146aac403ded0b2170, type: 3}
+  GNoll: {fileID: 2111278675695765368, guid: fa6e527208c562947876e54b6491243e, type: 3}
+  Wyvern: {fileID: 0}
+  Wolf: {fileID: 0}
+  Boar: {fileID: 0}
 --- !u!1 &1091976599
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,7 +787,7 @@ GameObject:
   - component: {fileID: 1091976602}
   - component: {fileID: 1091976601}
   m_Layer: 0
-  m_Name: Text (TMP) (2)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -831,7 +832,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: what the fuck
+  m_text: Basic Comment
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 244ee44e90a18fd4fac3e4c913f6ab32, type: 2}
   m_sharedMaterial: {fileID: -7906460649016198495, guid: 244ee44e90a18fd4fac3e4c913f6ab32, type: 2}
@@ -956,7 +957,7 @@ GameObject:
   - component: {fileID: 1096286402}
   - component: {fileID: 1096286401}
   m_Layer: 0
-  m_Name: Text (TMP) (1)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1001,7 +1002,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: what the fuck
+  m_text: Basic Comment
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 244ee44e90a18fd4fac3e4c913f6ab32, type: 2}
   m_sharedMaterial: {fileID: -7906460649016198495, guid: 244ee44e90a18fd4fac3e4c913f6ab32, type: 2}
@@ -1210,7 +1211,7 @@ GameObject:
   - component: {fileID: 1380568790}
   - component: {fileID: 1380568789}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1255,7 +1256,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: what the fuck
+  m_text: Basic Comment
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 244ee44e90a18fd4fac3e4c913f6ab32, type: 2}
   m_sharedMaterial: {fileID: -7906460649016198495, guid: 244ee44e90a18fd4fac3e4c913f6ab32, type: 2}
@@ -1377,8 +1378,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1635054280}
+  - component: {fileID: 1635054281}
   m_Layer: 0
-  m_Name: Choices
+  m_Name: ChoiceManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1396,12 +1398,29 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1756466339}
-  - {fileID: 253690481}
   - {fileID: 1806939409}
+  - {fileID: 253690481}
   - {fileID: 428754035}
   m_Father: {fileID: 1364205256}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1635054281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635054279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 903fa7f0917af214f9420627514531c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1364205254}
+  first: {fileID: 0}
+  second: {fileID: 0}
+  third: {fileID: 0}
+  fourth: {fileID: 0}
 --- !u!1 &1756466338
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,7 +1434,7 @@ GameObject:
   - component: {fileID: 1756466342}
   - component: {fileID: 1756466341}
   m_Layer: 0
-  m_Name: choice_first
+  m_Name: first
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1496,11 +1515,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1756466338}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 903fa7f0917af214f9420627514531c1, type: 3}
+  m_Script: {fileID: 11500000, guid: 395fdaf090d092b42a00b01e7c6c014e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1364205254}
-  isRight: 1
 --- !u!61 &1756466342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1540,7 +1557,7 @@ GameObject:
   - component: {fileID: 1806939412}
   - component: {fileID: 1806939411}
   m_Layer: 0
-  m_Name: choice_third
+  m_Name: second
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1559,7 +1576,7 @@ Transform:
   m_Children:
   - {fileID: 1096286400}
   m_Father: {fileID: 1635054280}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1806939410
 SpriteRenderer:
@@ -1621,11 +1638,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1806939408}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 903fa7f0917af214f9420627514531c1, type: 3}
+  m_Script: {fileID: 11500000, guid: 395fdaf090d092b42a00b01e7c6c014e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1364205254}
-  isRight: 1
 --- !u!61 &1806939412
 BoxCollider2D:
   m_ObjectHideFlags: 0
