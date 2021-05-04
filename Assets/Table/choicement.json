@@ -1,8 +1,4 @@
 {
-    "EnemyList":
-    [
-        "Goblin","Gnoll","Chicken","Wolf","Boar","Ork"
-    ],
     "Goblin": 
     {
         "first" : "고블린을 공격한다.",

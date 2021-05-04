@@ -41,9 +41,13 @@ public class GroundManager : MonoBehaviour
         {
             poscount += 1;
             clone = Instantiate(background, this.transform.position + new Vector3(90,0,0) * poscount, Quaternion.identity);
-            if(poscount % 2 == 1){
+            if(poscount % 2 == 1)
+            {
                 clone.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = Ork;
+                clone.transform.GetChild(0).GetComponent<Character>().Initialize("Ork");
             }
+            else
+                clone.transform.GetChild(0).GetComponent<Character>().Initialize("Goblin");    
         }
     }
 }

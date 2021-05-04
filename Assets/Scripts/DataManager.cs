@@ -14,8 +14,25 @@ public class DataManager
     public DataManager() {
         data = JsonUtility.FromJson<Data>(File.ReadAllText(Application.dataPath + "/Table/choicement.json"));
     }
-    
+
+    public Choice giveChoice(string enemyname){
+        if(enemyname == "Goblin")
+           return data.Goblin; 
+        else if(enemyname == "Gnoll")
+            return data.Gnoll;
+        else if(enemyname == "Chicken")
+            return data.Chicken;
+        else if(enemyname == "Wolf")
+            return data.Wolf;
+        else if(enemyname == "Boar")
+            return data.Boar;
+        else if(enemyname == "Ork")
+            return data.Ork;
+        else
+            return data.Goblin;
+    }
 }
+
 
 [System.Serializable]
 public class Choice
@@ -29,7 +46,6 @@ public class Choice
 [System.Serializable]
 public class Data
 {
-    public string[] enemyList;
     public Choice Goblin;
     public Choice Gnoll;
     public Choice Chicken;

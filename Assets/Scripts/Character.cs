@@ -5,15 +5,15 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    public string enemyname = "Goblin";
+    public string enemyname;
     public Choice choice = new Choice();
-    private Choice cnew = new Choice();
     public GameObject choicemanager;
     public DataManager dataManager;
-    void Start()
+    public void Initialize(string thisname)
     {   
+        enemyname = thisname;
         dataManager = new DataManager();
-        choice = dataManager.data.Goblin;
+        choice = dataManager.giveChoice(enemyname);
         choicemanager.transform.GetChild(0).transform.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = choice.first;
         choicemanager.transform.GetChild(1).transform.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = choice.second;
         choicemanager.transform.GetChild(2).transform.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = choice.third;
