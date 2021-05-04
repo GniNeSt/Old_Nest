@@ -220,10 +220,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyname: Goblin
   choice:
-    first: 
-    second: 
-    third: 
-    fourth: 
+    first:
+      ment: 
+      violence: 0
+      sane: 0
+    second:
+      ment: 
+      violence: 0
+      sane: 0
+    third:
+      ment: 
+      violence: 0
+      sane: 0
+    fourth:
+      ment: 
+      violence: 0
+      sane: 0
   choicemanager: {fileID: 1635054279}
 --- !u!1 &237434735
 GameObject:
@@ -1125,6 +1137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1364205256}
   - component: {fileID: 1364205255}
+  - component: {fileID: 1364205257}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1199,6 +1212,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1364205257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364205254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06065f5aaae430547a0cc6ba5a04ab79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1380568787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,6 +1446,9 @@ MonoBehaviour:
   second: {fileID: 0}
   third: {fileID: 0}
   fourth: {fileID: 0}
+  clicked_choice: 0
+  isMoving: 0
+  moveSpeed: 0
 --- !u!1 &1756466338
 GameObject:
   m_ObjectHideFlags: 0

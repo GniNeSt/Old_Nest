@@ -5,10 +5,6 @@ using UnityEngine;
 
 public class DataManager
 {
-    public string choice_first;
-    public string choice_second;
-    public string choice_third;
-    public string choice_fourth;
     public Data data;
     
     public DataManager() {
@@ -33,14 +29,21 @@ public class DataManager
     }
 }
 
+[System.Serializable]
+public class ChoiceEach
+{
+    public string ment;
+    public int violence;
+    public int sane;
+}
 
 [System.Serializable]
 public class Choice
 {   
-    public string first = "";
-    public string second = "";
-    public string third = "";
-    public string fourth = "";
+    public ChoiceEach first;
+    public ChoiceEach second;
+    public ChoiceEach third;
+    public ChoiceEach fourth;
 }
 
 [System.Serializable]

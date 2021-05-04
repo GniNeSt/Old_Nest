@@ -47,7 +47,7 @@ public class GroundManager : MonoBehaviour
                 clone.transform.GetChild(0).GetComponent<Character>().Initialize("Ork");
             }
             else
-                clone.transform.GetChild(0).GetComponent<Character>().Initialize("Goblin");    
+                clone.transform.GetChild(0).GetComponent<Character>().Initialize("Goblin");
         }
     }
 }

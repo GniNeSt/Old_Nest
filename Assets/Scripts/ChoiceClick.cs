@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ChoiceClick : MonoBehaviour{
+    private ChoiceManager choicemanager;
     private int thisnumber;
     private void Start() {
+        choicemanager = GameObject.Find("ChoiceManager").GetComponent<ChoiceManager>();
         if (transform.name == "first"){
             thisnumber = 1;
         } else if (transform.name == "second") {
@@ -16,7 +18,7 @@ public class ChoiceClick : MonoBehaviour{
         }
     }
     private void OnMouseUp() {
-        ChoiceManager.clicked_choice = thisnumber;
-        ChoiceManager.ChoiceAct();
+        choicemanager.clicked_choice = thisnumber;
+        choicemanager.ChoiceAct();
     }
 }
