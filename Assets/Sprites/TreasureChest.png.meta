@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: d40111ad80f6df146aac403ded0b2170
+guid: 97107d1a5c26a154cad8197639b0c34f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2500865730457817595
-    second: Ork idle_0
+      213: 7793962618752990514
+    second: TreasureChest_0
   - first:
-      213: 2535591181212478196
-    second: Ork idle_1
+      213: 7429822970295999662
+    second: TreasureChest_1
   - first:
-      213: -3398291157685003519
-    second: Ork idle_2
+      213: -347051714107185806
+    second: TreasureChest_2
   - first:
-      213: 3398669828708907689
-    second: Ork idle_3
+      213: 6425987842468052431
+    second: TreasureChest_3
+  - first:
+      213: 2836692382669916273
+    second: TreasureChest_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -58,7 +61,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 8
+  spritePixelsToUnits: 2
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -80,7 +83,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -92,7 +95,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ork idle_0
+      name: TreasureChest_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 65
-        width: 51
-        height: 63
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,20 +120,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50e2d194ed32b4dd0800000000000000
-      internalID: -2500865730457817595
+      spriteID: 23df17325b7b92c60800000000000000
+      internalID: 7793962618752990514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ork idle_1
+      name: TreasureChest_1
       rect:
         serializedVersion: 2
-        x: 71
-        y: 65
-        width: 51
-        height: 61
+        x: 16
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fa68c3ceba303320800000000000000
-      internalID: 2535591181212478196
+      spriteID: eacd78860a80c1760800000000000000
+      internalID: 7429822970295999662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ork idle_2
+      name: TreasureChest_2
       rect:
         serializedVersion: 2
-        x: 7
-        y: 1
-        width: 51
-        height: 61
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10b95de6238d6d0d0800000000000000
-      internalID: -3398291157685003519
+      spriteID: 27563f50e460f2bf0800000000000000
+      internalID: -347051714107185806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ork idle_3
+      name: TreasureChest_3
       rect:
         serializedVersion: 2
-        x: 71
-        y: 1
-        width: 51
-        height: 61
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +183,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aa3809c3308a2f20800000000000000
-      internalID: 3398669828708907689
+      spriteID: fcd794975e1bd2950800000000000000
+      internalID: 6425987842468052431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreasureChest_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178c81e41b4fd5720800000000000000
+      internalID: 2836692382669916273
       vertices: []
       indices: 
       edges: []

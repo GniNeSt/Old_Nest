@@ -1,43 +1,34 @@
 fileFormatVersion: 2
-guid: c54bc7f5c1bcfe549b7cd269c6fe0bdc
+guid: 56171b8af33a07948862f50342dcf08e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -550455310974496749
-    second: Goblin idle_0
+      213: -413800416329549740
+    second: Mimic_0
   - first:
-      213: 6615817759523019249
-    second: Goblin idle_1
+      213: -1457808011137041354
+    second: Mimic_1
   - first:
-      213: -1187765291288614920
-    second: Goblin idle_2
+      213: -6760782598410066015
+    second: Mimic_2
   - first:
-      213: -5314110034005757544
-    second: Goblin idle_3
+      213: 736238399224375723
+    second: Mimic_3
   - first:
-      213: -951348308786813223
-    second: Goblin idle_4
+      213: 8614379557008483027
+    second: Mimic_4
   - first:
-      213: 8039907648742641950
-    second: Goblin idle_5
+      213: -1320156814832202976
+    second: Mimic_5
   - first:
-      213: 1726908380000258148
-    second: Goblin idle_6
+      213: -6686032228374034166
+    second: Mimic_6
   - first:
-      213: 774961537351636253
-    second: Goblin idle_7
+      213: -3101566340657124610
+    second: Mimic_7
   - first:
-      213: -5690095415888518271
-    second: Goblin idle_8
-  - first:
-      213: -2252585944264309704
-    second: Goblin idle_9
-  - first:
-      213: -2712983784686605057
-    second: Goblin idle_10
-  - first:
-      213: -4825403774907068774
-    second: Goblin idle_11
+      213: 2092654696836977030
+    second: Mimic_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -82,7 +73,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 2
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,7 +95,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,7 +107,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,13 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Goblin idle_0
+      name: Mimic_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 129
-        width: 50
-        height: 61
+        x: 0
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31053a4afc36c58f0800000000000000
-      internalID: -550455310974496749
+      spriteID: 458b4c8b6b2e14af0800000000000000
+      internalID: -413800416329549740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Goblin idle_1
+      name: Mimic_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 129
-        width: 49
-        height: 63
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f9171f333b10db50800000000000000
-      internalID: 6615817759523019249
+      spriteID: 63c35717653d4cbe0800000000000000
+      internalID: -1457808011137041354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Goblin idle_2
+      name: Mimic_2
       rect:
         serializedVersion: 2
-        x: 135
-        y: 129
-        width: 50
-        height: 62
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f72438b2c5348fe0800000000000000
-      internalID: -1187765291288614920
+      spriteID: 1a720220c00ec22a0800000000000000
+      internalID: -6760782598410066015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Goblin idle_3
+      name: Mimic_3
       rect:
         serializedVersion: 2
-        x: 200
-        y: 129
-        width: 50
-        height: 60
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8917fb5541d7046b0800000000000000
-      internalID: -5314110034005757544
+      spriteID: ba965cf5ce4a73a00800000000000000
+      internalID: 736238399224375723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Goblin idle_4
+      name: Mimic_4
       rect:
         serializedVersion: 2
-        x: 9
-        y: 66
-        width: 50
-        height: 59
+        x: 16
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d6e71de0c12cc2f0800000000000000
-      internalID: -951348308786813223
+      spriteID: 3d2a0efe09c6c8770800000000000000
+      internalID: 8614379557008483027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Goblin idle_5
+      name: Mimic_5
       rect:
         serializedVersion: 2
-        x: 72
-        y: 65
-        width: 50
-        height: 60
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e115046c86d739f60800000000000000
-      internalID: 8039907648742641950
+      spriteID: 02b8d141f5cddade0800000000000000
+      internalID: -1320156814832202976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Goblin idle_6
+      name: Mimic_6
       rect:
         serializedVersion: 2
-        x: 136
-        y: 65
-        width: 50
-        height: 61
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4688f85a50637f710800000000000000
-      internalID: 1726908380000258148
+      spriteID: a09c3f6cc117633a0800000000000000
+      internalID: -6686032228374034166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Goblin idle_7
+      name: Mimic_7
       rect:
         serializedVersion: 2
-        x: 200
-        y: 65
-        width: 50
-        height: 61
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d155f6c896731ca00800000000000000
-      internalID: 774961537351636253
+      spriteID: efae2d198d505f4d0800000000000000
+      internalID: -3101566340657124610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Goblin idle_8
+      name: Mimic_8
       rect:
         serializedVersion: 2
-        x: 8
-        y: 1
-        width: 50
-        height: 61
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,71 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 183e2eddd58b801b0800000000000000
-      internalID: -5690095415888518271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Goblin idle_9
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 1
-        width: 50
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8348616b4053db0e0800000000000000
-      internalID: -2252585944264309704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Goblin idle_10
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 1
-        width: 48
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffc2c503f9b895ad0800000000000000
-      internalID: -2712983784686605057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Goblin idle_11
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 1
-        width: 47
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9ec5d235d8b80db0800000000000000
-      internalID: -4825403774907068774
+      spriteID: 68155820c5a9a0d10800000000000000
+      internalID: 2092654696836977030
       vertices: []
       indices: 
       edges: []
