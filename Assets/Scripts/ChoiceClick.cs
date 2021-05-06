@@ -19,6 +19,14 @@ public class ChoiceClick : MonoBehaviour{
     }
     private void OnMouseUp() {
         choicemanager.clicked_choice = thisnumber;
-        choicemanager.ChoiceAct();
+        if (transform.name == "first"){
+            choicemanager.ChoiceFirst();
+        } else if (transform.name == "second") {
+            choicemanager.ChoiceSecond();
+        } else if (transform.name == "third") {
+            choicemanager.ChoiceThird();
+        } else if (transform.name == "fourth"){
+            choicemanager.ChoiceFourth();
+        }
     }
 }
