@@ -195,7 +195,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8a0997d8f55d07c4a9a9180a6b0f9544, type: 3}
+  m_Sprite: {fileID: 8749302817991680212, guid: d6d9b26bebf3e684b88d0ce846737906, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -237,6 +237,12 @@ MonoBehaviour:
       violence: 0
       sane: 0
   choiceManagerObject: {fileID: 1635054279}
+  Goblin: {fileID: 8749302817991680212, guid: d6d9b26bebf3e684b88d0ce846737906, type: 3}
+  Ork: {fileID: -8180171696930044909, guid: 6b58998eb7637224794fa341fd00cf47, type: 3}
+  GNoll: {fileID: -7285376162372006033, guid: a54911e9a62353d4384143aa2036fb75, type: 3}
+  Wyvern: {fileID: 5336855417275088078, guid: d119f90b9ae49184aa82c4d5786dd5d0, type: 3}
+  Wolf: {fileID: -458185587419916677, guid: 852f7510dd3ff9c43bb8c222f2cd5623, type: 3}
+  Boar: {fileID: 3232954995629961432, guid: fa7adc8cfe55ceb44bfd7a10ccb165ac, type: 3}
 --- !u!1 &237434735
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,6 +423,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 395fdaf090d092b42a00b01e7c6c014e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hero: {fileID: 1364205254}
+  choiceviolence: 0
+  choicesane: 0
 --- !u!61 &253690484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -540,6 +549,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 395fdaf090d092b42a00b01e7c6c014e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hero: {fileID: 1364205254}
+  choiceviolence: 0
+  choicesane: 0
 --- !u!61 &428754038
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -781,12 +793,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1364205254}
   background: {fileID: 237434735}
-  Goblin: {fileID: 8749302817991680212, guid: d6d9b26bebf3e684b88d0ce846737906, type: 3}
-  Ork: {fileID: 21300000, guid: fff227482e19fe74aa8c9c5902a042ed, type: 3}
-  GNoll: {fileID: 21300000, guid: 32c5ed69a5713d745aefb920200f4724, type: 3}
-  Wyvern: {fileID: 5336855417275088078, guid: d119f90b9ae49184aa82c4d5786dd5d0, type: 3}
-  Wolf: {fileID: -458185587419916677, guid: 852f7510dd3ff9c43bb8c222f2cd5623, type: 3}
-  Boar: {fileID: 3232954995629961432, guid: fa7adc8cfe55ceb44bfd7a10ccb165ac, type: 3}
 --- !u!1 &1091976599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1547,6 +1553,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 395fdaf090d092b42a00b01e7c6c014e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hero: {fileID: 1364205254}
+  choiceviolence: 0
+  choicesane: 0
 --- !u!61 &1756466342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1670,6 +1679,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 395fdaf090d092b42a00b01e7c6c014e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hero: {fileID: 1364205254}
+  choiceviolence: 0
+  choicesane: 0
 --- !u!61 &1806939412
 BoxCollider2D:
   m_ObjectHideFlags: 0
