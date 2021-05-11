@@ -21,13 +21,6 @@ public class GroundManager : MonoBehaviour
     static int backgroundsize = 90;
     private Vector3 playerPos;
     private GameObject clone;
-    public Sprite Goblin;
-    public Sprite Ork;
-    public Sprite GNoll;
-    public Sprite Wyvern;
-    public Sprite Wolf;
-    public Sprite Boar;
-
     void Start()
     {
         poscount = 0;
@@ -43,7 +36,6 @@ public class GroundManager : MonoBehaviour
             clone = Instantiate(background, this.transform.position + new Vector3(90,0,0) * poscount, Quaternion.identity);
             if(poscount % 2 == 1)
             {
-                clone.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = Ork;
                 clone.transform.GetChild(0).GetComponent<Character>().Initialize("Ork");
             }
             else

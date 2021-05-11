@@ -4,29 +4,37 @@ using UnityEngine;
 
 public class ChoiceClick : MonoBehaviour{
     private ChoiceManager choicemanager;
-    private int thisnumber;
+    public GameObject hero;
+    // private int thisnumber;
+    public int choiceviolence;
+    public int choicesane;
     private void Start() {
         choicemanager = GameObject.Find("ChoiceManager").GetComponent<ChoiceManager>();
-        if (transform.name == "first"){
-            thisnumber = 1;
-        } else if (transform.name == "second") {
-            thisnumber = 2;
-        } else if (transform.name == "third") {
-            thisnumber = 3;
-        } else if (transform.name == "fourth"){
-            thisnumber = 4;
-        }
+        // switch (transform.name){
+        //     case "first":
+        //         thisnumber = 1;
+        //         break;
+        //     case "second":
+        //         thisnumber = 2;
+        //         break;
+        //     case "third":
+        //         thisnumber = 3;
+        //         break;
+        //     case "fourth":
+        //         thisnumber = 4;
+        //         break;
+        // }
+    }
+    public void Init(ChoiceEach choice)
+    {
+        transform.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = choice.ment;
+        choiceviolence = choice.violence;
+        choicesane = choice.sane;
     }
     private void OnMouseUp() {
-        choicemanager.clicked_choice = thisnumber;
-        if (transform.name == "first"){
-            choicemanager.ChoiceFirst();
-        } else if (transform.name == "second") {
-            choicemanager.ChoiceSecond();
-        } else if (transform.name == "third") {
-            choicemanager.ChoiceThird();
-        } else if (transform.name == "fourth"){
-            choicemanager.ChoiceFourth();
-        }
+        Hero.violence += choiceviolence;
+        Hero.sane += choicesane;
+        Debug.Log("ACT" + transform.name + ", Currnet Violence: " + Hero.violence.ToString() + ", Currnet Sane: " + Hero.sane.ToString());
+        choicemanager.Move();
     }
 }

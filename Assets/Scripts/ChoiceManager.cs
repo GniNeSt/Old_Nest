@@ -23,8 +23,6 @@ public class ChoiceManager : MonoBehaviour
         fourth = transform.GetChild(3);
         firstenemy = GameObject.Find("Enemy");
         firstenemy.GetComponent<Character>().Initialize("Goblin");
-        
-
     }
 
     // Update is called once per frame
@@ -35,27 +33,33 @@ public class ChoiceManager : MonoBehaviour
         else 
             moveSpeed = 0f;
     }
-
-    public void ChoiceFirst(){
-        Debug.Log("ACT" + clicked_choice);
+    public void Move()
+    {
         isMoving = true;
         nextPosX = GroundManager.poscount + 1;
         moveSpeed = 30f;
     }
+    public void ChoiceFirst(){
+        Debug.Log("ACT" + clicked_choice);
+        Move();
+    }
     public void ChoiceSecond(){
         Debug.Log("ACT" + clicked_choice);
+        Move();
     }
     public void ChoiceThird(){
         Debug.Log("ACT" + clicked_choice);
+        Move();
     }
     public void ChoiceFourth(){
         Debug.Log("ACT" + clicked_choice);
+        Move();
     }
 
     public void SetChoice(Choice choice){
-        first.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = choice.first.ment;
-        second.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = choice.second.ment;
-        third.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = choice.third.ment;
-        fourth.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = choice.fourth.ment;
+        first.GetComponent<ChoiceClick>().Init(choice.first);
+        second.GetComponent<ChoiceClick>().Init(choice.second);
+        third.GetComponent<ChoiceClick>().Init(choice.third);
+        fourth.GetComponent<ChoiceClick>().Init(choice.fourth);
     }
 }
