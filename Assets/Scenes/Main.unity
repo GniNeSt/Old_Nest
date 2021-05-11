@@ -203,7 +203,7 @@ SpriteRenderer:
   m_Size: {x: 8, y: 8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &71655011
@@ -237,12 +237,12 @@ MonoBehaviour:
       violence: 0
       sane: 0
   choiceManagerObject: {fileID: 1635054279}
-  Goblin: {fileID: 8749302817991680212, guid: d6d9b26bebf3e684b88d0ce846737906, type: 3}
-  Ork: {fileID: -8180171696930044909, guid: 6b58998eb7637224794fa341fd00cf47, type: 3}
-  GNoll: {fileID: -7285376162372006033, guid: a54911e9a62353d4384143aa2036fb75, type: 3}
-  Wyvern: {fileID: 5336855417275088078, guid: d119f90b9ae49184aa82c4d5786dd5d0, type: 3}
-  Wolf: {fileID: -458185587419916677, guid: 852f7510dd3ff9c43bb8c222f2cd5623, type: 3}
-  Boar: {fileID: 3232954995629961432, guid: fa7adc8cfe55ceb44bfd7a10ccb165ac, type: 3}
+  Goblin: {fileID: 8749302817991680212, guid: 70e13a45a1046634fbc813fda73ecd5c, type: 3}
+  Ork: {fileID: -4469481312394968760, guid: e25b2ae7556721148889f372864a4fbf, type: 3}
+  GNoll: {fileID: -5235804090091500571, guid: a3c782584996bd0428545eb636b35067, type: 3}
+  Wyvern: {fileID: 5336855417275088078, guid: cf42d3e962556a2478a45f4cd389768d, type: 3}
+  Wolf: {fileID: -458185587419916677, guid: e537e2b4aae86e84488a29e23d3340bc, type: 3}
+  Boar: {fileID: 3232954995629961432, guid: 2044c35ed320fc94eb54fcf28c1f1038, type: 3}
 --- !u!1 &237434735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,12 +1191,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5711848221618334454, guid: bdf878ba1bc4ef746abbe3683f4be8e4, type: 3}
+  m_Sprite: {fileID: -5711848221618334454, guid: fb9a974e430e6374fba6b26c14355623, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 8, y: 8}
+  m_Size: {x: 0.2, y: 0.41}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
