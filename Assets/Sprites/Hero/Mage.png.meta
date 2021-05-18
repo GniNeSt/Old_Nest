@@ -172,12 +172,12 @@ TextureImporter:
       name: Mage_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 0
-        width: 26
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: Mage_1
       rect:
         serializedVersion: 2
-        x: 56
+        x: 48
         y: 0
-        width: 29
-        height: 41
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: Mage_2
       rect:
         serializedVersion: 2
-        x: 104
+        x: 96
         y: 0
-        width: 29
-        height: 41
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: Mage_3
       rect:
         serializedVersion: 2
-        x: 147
+        x: 144
         y: 0
-        width: 34
-        height: 43
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: Mage_4
       rect:
         serializedVersion: 2
-        x: 195
+        x: 192
         y: 0
-        width: 34
-        height: 43
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: Mage_5
       rect:
         serializedVersion: 2
-        x: 243
+        x: 240
         y: 0
-        width: 34
-        height: 43
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: Mage_6
       rect:
         serializedVersion: 2
-        x: 296
+        x: 288
         y: 0
-        width: 26
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: Mage_7
       rect:
         serializedVersion: 2
-        x: 344
+        x: 336
         y: 0
-        width: 26
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,12 +340,12 @@ TextureImporter:
       name: Mage_8
       rect:
         serializedVersion: 2
-        x: 392
+        x: 384
         y: 0
-        width: 32
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -361,12 +361,12 @@ TextureImporter:
       name: Mage_9
       rect:
         serializedVersion: 2
-        x: 440
+        x: 432
         y: 0
-        width: 26
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -382,12 +382,12 @@ TextureImporter:
       name: Mage_10
       rect:
         serializedVersion: 2
-        x: 488
+        x: 480
         y: 0
-        width: 32
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -403,12 +403,12 @@ TextureImporter:
       name: Mage_11
       rect:
         serializedVersion: 2
-        x: 536
+        x: 528
         y: 0
-        width: 32
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: Mage_12
       rect:
         serializedVersion: 2
-        x: 580
+        x: 576
         y: 0
-        width: 40
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -445,12 +445,12 @@ TextureImporter:
       name: Mage_14
       rect:
         serializedVersion: 2
-        x: 629
+        x: 672
         y: 0
-        width: 43
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -466,12 +466,12 @@ TextureImporter:
       name: Mage_16
       rect:
         serializedVersion: 2
-        x: 677
+        x: 768
         y: 0
-        width: 44
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -487,12 +487,12 @@ TextureImporter:
       name: Mage_17
       rect:
         serializedVersion: 2
-        x: 728
+        x: 816
         y: 0
-        width: 38
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -508,12 +508,12 @@ TextureImporter:
       name: Mage_18
       rect:
         serializedVersion: 2
-        x: 776
+        x: 864
         y: 0
-        width: 32
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -529,12 +529,12 @@ TextureImporter:
       name: Mage_19
       rect:
         serializedVersion: 2
-        x: 824
+        x: 912
         y: 0
-        width: 32
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -550,12 +550,12 @@ TextureImporter:
       name: Mage_20
       rect:
         serializedVersion: 2
-        x: 872
+        x: 960
         y: 0
-        width: 32
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -568,43 +568,43 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_21
+      name: Mage_13
       rect:
         serializedVersion: 2
-        x: 920
+        x: 624
         y: 0
-        width: 40
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbf4d43fd92df1590800000000000000
-      internalID: -7701205261946630212
+      spriteID: f8baffe52f51b4200800000000000000
+      internalID: 165249942049237903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_22
+      name: Mage_15
       rect:
         serializedVersion: 2
-        x: 968
+        x: 720
         y: 0
-        width: 32
-        height: 47
+        width: 48
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e060276f98cf13530800000000000000
-      internalID: 3833122427344389646
+      spriteID: c08b9443636423050800000000000000
+      internalID: 5778758470489192460
       vertices: []
       indices: 
       edges: []
