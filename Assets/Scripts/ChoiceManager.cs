@@ -39,22 +39,6 @@ public class ChoiceManager : MonoBehaviour
         nextPosX = GroundManager.poscount + 1;
         moveSpeed = 30f;
     }
-    public void ChoiceFirst(){
-        Debug.Log("ACT" + clicked_choice);
-        Move();
-    }
-    public void ChoiceSecond(){
-        Debug.Log("ACT" + clicked_choice);
-        Move();
-    }
-    public void ChoiceThird(){
-        Debug.Log("ACT" + clicked_choice);
-        Move();
-    }
-    public void ChoiceFourth(){
-        Debug.Log("ACT" + clicked_choice);
-        Move();
-    }
 
     public void SetChoice(Choice choice){
         first.GetComponent<ChoiceClick>().Init(choice.first);

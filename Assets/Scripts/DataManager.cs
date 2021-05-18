@@ -14,9 +14,9 @@ public class DataManager
     public Choice giveChoice(string enemyname){
         if(enemyname == "Goblin")
            return data.Goblin; 
-        else if(enemyname == "Gnoll")
+        else if(enemyname == "GNoll")
             return data.Gnoll;
-        else if(enemyname == "Chicken")
+        else if(enemyname == "Wyvern")
             return data.Chicken;
         else if(enemyname == "Wolf")
             return data.Wolf;

@@ -10,20 +10,6 @@ public class ChoiceClick : MonoBehaviour{
     public int choicesane;
     private void Start() {
         choicemanager = GameObject.Find("ChoiceManager").GetComponent<ChoiceManager>();
-        // switch (transform.name){
-        //     case "first":
-        //         thisnumber = 1;
-        //         break;
-        //     case "second":
-        //         thisnumber = 2;
-        //         break;
-        //     case "third":
-        //         thisnumber = 3;
-        //         break;
-        //     case "fourth":
-        //         thisnumber = 4;
-        //         break;
-        // }
     }
     public void Init(ChoiceEach choice)
     {

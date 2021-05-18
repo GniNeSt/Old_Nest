@@ -21,6 +21,7 @@ public class GroundManager : MonoBehaviour
     static int backgroundsize = 90;
     private Vector3 playerPos;
     private GameObject clone;
+    private string[] enemylist = {"Goblin","Ork","Wyvern","Wolf","GNoll","Boar"};
     void Start()
     {
         poscount = 0;
@@ -34,12 +35,7 @@ public class GroundManager : MonoBehaviour
         {
             poscount += 1;
             clone = Instantiate(background, this.transform.position + new Vector3(90,0,0) * poscount, Quaternion.identity);
-            if(poscount % 2 == 1)
-            {
-                clone.transform.GetChild(0).GetComponent<Character>().Initialize("Ork");
-            }
-            else
-                clone.transform.GetChild(0).GetComponent<Character>().Initialize("Goblin");
+            clone.transform.GetChild(0).GetComponent<Character>().Initialize(enemylist[poscount]);
         }
     }
 }
