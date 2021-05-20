@@ -17,6 +17,14 @@ public class Character : MonoBehaviour
     public Sprite Wyvern;
     public Sprite Wolf;
     public Sprite Boar;
+    public Sprite GodStatue;
+    public Sprite Lake;
+    public Sprite Mimic;
+    public Sprite TreasureChest;
+    public Sprite Archer;
+    public Sprite Knight;
+    public Sprite Mage;
+    public Sprite Warrior;
     public void Initialize(string thisname)
     {   
         enemyname = thisname;
@@ -47,6 +55,30 @@ public class Character : MonoBehaviour
                 break;
             case "Boar":
                 gameObject.GetComponent<SpriteRenderer>().sprite = Boar;
+                break;
+            case "GodStatue":
+                gameObject.GetComponent<SpriteRenderer>().sprite = GodStatue;
+                break;
+            case "Lake":
+                gameObject.GetComponent<SpriteRenderer>().sprite = Lake;
+                break;
+            case "Mimic":
+                gameObject.GetComponent<SpriteRenderer>().sprite = Mimic;
+                break;
+            case "TreasureChest":
+                gameObject.GetComponent<SpriteRenderer>().sprite = Mimic;
+                break;
+            case "Archer":
+                gameObject.GetComponent<SpriteRenderer>().sprite = Archer;
+                break;
+            case "Knight":
+                gameObject.GetComponent<SpriteRenderer>().sprite = Knight;
+                break;
+            case "Mage":
+                gameObject.GetComponent<SpriteRenderer>().sprite = Mage;
+                break;
+            case "Warrior":
+                gameObject.GetComponent<SpriteRenderer>().sprite = Warrior;
                 break;
             default:
                 gameObject.GetComponent<SpriteRenderer>().sprite = Goblin;
