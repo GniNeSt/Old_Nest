@@ -6,145 +6,144 @@
             "ment": "고블린을 공격한다.",
             "success":
             {
-                "needviolence:" : 0,
-                "needsane": 0,
+                "needviolence:" : -100,
+                "needsane": -100,
                 "violence": 10,
                 "sane": 10,
-                "ment": "성공멘트"
+                "ment": "고블린을 공격했다! 고블린이 쓰러집니다. 이 희생이 가치있기를..."
             },
             "fail":
             {
               "violence": 10,
               "sane": 10,
-              "ment": "실패멘트" 
+              "ment": "고블린을 공격했다! 고블린에게 패배했습니다. 이럴 수가 고블린에게 질 수가 있는 거였군요!" 
             }
         },
         "second" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "못 본 체하고 지나간다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
-                "ment": "성공멘트"
+                "violence": -5,
+                "sane": 5,
+                "ment": "고블린을 못 본 체하고 지나갔다! 당신은 고블린에 신경 쓰지 않고 지나갔습니다. 저 고블린도 누군가의 부모이며 자식일테니까요."
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
-              "ment": "실패멘트" 
+              "violence": -5,
+              "sane": 5,
+              "ment": "고블린을 못 본 체하고 지나갔... 으려고 했으나 고블린이 당신을 보고 말았습니다. 결국 쓰러트렸지만 고블린은 만족한 듯 하네요." 
             }
         },
         "third" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "고블린의 언어를 흉내낸다..",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
-                "ment": "성공멘트"
+                "violence": -10,
+                "sane": -10,
+                "ment": "고블린의 말을 흉내냈다! 당신은 고블린을 관찰하고 말을 흉내냈습니다. 고블린은 화들짝 놀라며 도망갔습니다. 대체 무슨 말이었길래....."
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
-              "ment": "실패멘트" 
+              "violence": -10,
+              "sane": -10,
+              "ment": "고블린의 말을 흉내냈다! 당신은 고블린의 말과 억양을 따라했습니다. 하지만 고블린은 이해하지 못한 듯 보이군요. 외국인에게 대화를 걸려면 공부는 하고 합시다. 그게 예의지." 
             }
         }, 
         "fourth" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "고블린을 납치한다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
-                "ment": "성공멘트"
+                "violence": 5,
+                "sane": -5,
+                "ment": "고블린을 납치했다! 당신은 고블린을 제압하고 포박했습니다. 고블린은 당황한 듯 보이네요. 고블린 가족은 그 뒤로 이 고블린을 본 적이 없습니다."
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
-              "ment": "실패멘트" 
+              "violence": 5,
+              "sane": -5,
+              "ment": "고블린을 납치... 하려고 했습니다. 하지만 당신의 행동은 재빠르지 못했고 고블린은 멍해진 표정으로 당신을 응시했습니다. 분위기가 어색해졌네요." 
             }
         }
     },
     "Gnoll":
     {
-        "first" :
+      "first": {
+        "ment": "놀을 공격한다.",
+        "success": 
         {
-            "ment": "고블린을 공격한다.",
-            "success":
-            {
-                "needviolence:" : 0,
-                "needsane": 0,
-                "violence": 10,
-                "sane": 10,
-                "ment": "성공멘트"
-            },
-            "fail":
-            {
-              "violence": 10,
-              "sane": 10,
-              "ment": "실패멘트" 
-            }
+          "needviolence:": 0,
+          "needsane": 0,
+          "violence": 10,
+          "sane": 10,
+          "ment": "성공멘트"
         },
+        "fail": 
+        {
+          "violence": 10,
+          "sane": 10,
+          "ment": "실패멘트"
+        }
+      },
         "second" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "알아채기 전에도망친다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": -5,
+                "sane": 5,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": -5,
+              "sane": 5,
               "ment": "실패멘트" 
             }
         },
         "third" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "멍멍 짖어본다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": -10,
+                "sane": -10,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": -10,
+              "sane": -10,
               "ment": "실패멘트" 
             }
         }, 
         "fourth" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "뼈다귀로 유인한다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": 5,
+                "sane": -5,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": 5,
+              "sane": -5,
               "ment": "실패멘트" 
             }
         }
@@ -153,7 +152,7 @@
     {
         "first" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "와이번을 공격한다.",
             "success":
             {
                 "needviolence:" : 0,
@@ -171,55 +170,55 @@
         },
         "second" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "조용히 지나간다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": -5,
+                "sane": 5,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": -5,
+              "sane": 5,
               "ment": "실패멘트" 
             }
         },
         "third" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "와이번의 몸짓을 따라한다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": -10,
+                "sane": -10,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": -10,
+              "sane": -10,
               "ment": "실패멘트" 
             }
         }, 
         "fourth" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "와이번을 포획한다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": 5,
+                "sane": -5,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": 5,
+              "sane": -5,
               "ment": "실패멘트" 
             }
         }
@@ -228,7 +227,7 @@
     {
         "first" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "늑대를 공격한다.",
             "success":
             {
                 "needviolence:" : 0,
@@ -246,55 +245,55 @@
         },
         "second" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "뒷걸음 친다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": -5,
+                "sane": 5,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": -5,
+              "sane": 5,
               "ment": "실패멘트" 
             }
         },
         "third" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "플레이어의 하울링!.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": -10,
+                "sane": -10,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": -10,
+              "sane": -10,
               "ment": "실패멘트" 
             }
         }, 
         "fourth" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "뼈다귀로 유인한다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": 5,
+                "sane": -5,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": 5,
+              "sane": -5,
               "ment": "실패멘트" 
             }
         }
@@ -303,7 +302,7 @@
     {
         "first" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "멧돼지을 공격한다.",
             "success":
             {
                 "needviolence:" : 0,
@@ -321,55 +320,55 @@
         },
         "second" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "도망친다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": -5,
+                "sane": 5,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": -5,
+              "sane": 5,
               "ment": "실패멘트" 
             }
         },
         "third" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "이마에 손을 대본다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": -10,
+                "sane": -10,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": -10,
+              "sane": -10,
               "ment": "실패멘트" 
             }
         }, 
         "fourth" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "포획한다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": 5,
+                "sane": -5,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": 5,
+              "sane": -5,
               "ment": "실패멘트" 
             }
         }
@@ -378,7 +377,7 @@
     {
         "first" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "오크를 공격한다.",
             "success":
             {
                 "needviolence:" : 0,
@@ -396,55 +395,55 @@
         },
         "second" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "도망친다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": -5,
+                "sane": 5,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": -5,
+              "sane": 5,
               "ment": "실패멘트" 
             }
         },
         "third" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "오크의 말을 따라해본다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": -10,
+                "sane": -10,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": -10,
+              "sane": -10,
               "ment": "실패멘트" 
             }
         }, 
         "fourth" :
         {
-            "ment": "고블린을 공격한다.",
+            "ment": "오크를 사로잡는다.",
             "success":
             {
                 "needviolence:" : 0,
                 "needsane": 0,
-                "violence": 10,
-                "sane": 10,
+                "violence": 5,
+                "sane": -5,
                 "ment": "성공멘트"
             },
             "fail":
             {
-              "violence": 10,
-              "sane": 10,
+              "violence": 5,
+              "sane": -5,
               "ment": "실패멘트" 
             }
         }
