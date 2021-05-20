@@ -4,161 +4,449 @@
         "first" :
         {
             "ment": "고블린을 공격한다.",
-            "violence": 10,
-            "sane": 10
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         },
         "second" :
         {
-            "ment":"고블린에게서 도망친다",
-            "violence": -10,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         },
         "third" :
         {
-            "ment": "고블린을 생포한다",
-            "violence": 5,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         }, 
         "fourth" :
         {
-            "ment":"고블린에게 말을 걸어본다",
-            "violence": 5,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         }
     },
     "Gnoll":
     {
         "first" :
         {
-            "ment": "놀을 공격한다",
-            "violence": 10,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         },
         "second" :
         {
-            "ment":"놀에게 뼈다귀를 던져본다",
-            "violence": -10,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         },
         "third" :
         {
-            "ment": "놀을 생포한다",
-            "violence": 5,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         }, 
         "fourth" :
         {
-            "ment":"놀에게 말을 걸어본다",
-            "violence": 5,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         }
     },
     "Chicken":
     {
         "first" :
         {
-            "ment": "매우 흉포한 와이번에게 모이를 준다",
-            "violence": 10,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         },
         "second" :
         {
-            "ment":"와이번 쫒던 개가 지붕 쳐다보기 스킬을 시전한다",
-            "violence": -10,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         },
         "third" :
         {
-            "ment": "잡아서 튀김을 만들어버린다",
-            "violence": 5,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         }, 
         "fourth" :
         {
-            "ment":"매우 흉포한 와이번을 마을 사람들에게 소개시켜준다",
-            "violence": 5,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         }
     },
     "Wolf":
     {
         "first" :
         {
-            "ment": "너무나도 잔인한 늑대에게 뼈다귀를 준다",
-            "violence": 10,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         },
         "second" :
         {
-            "ment":"방패를 던져준다",
-            "violence": -10,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         },
         "third" :
         {
-            "ment": "옆마을에 가서 개장수를 불러온다",
-            "violence": 5,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         }, 
         "fourth" :
         {
-            "ment":"매우 흉포한 늑대를 사람들에게 소개시켜준다",
-            "violence": 5,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         }
     },
     "Boar":
     {
         "first" :
         {
-            "ment": "잡아서 삼겹살을 해먹는다",
-            "violence": 10,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         },
         "second" :
         {
-            "ment":"쌈장과 상추를 준비해온다",
-            "violence": -10,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         },
         "third" :
         {
-            "ment": "애완돼지를 키워볼까",
-            "violence": 5,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         }, 
         "fourth" :
         {
-            "ment":"사이즈가 꽤 크니 마을로 가져다 판다",
-            "violence": 5,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         }
     },
     "Ork":
     {
         "first" :
         {
-            "ment": "송곳니를 뽑아서 목걸이를 만들어준다",
-            "violence": 10,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         },
         "second" :
         {
-            "ment":"뚝배기를 뽀개버린다",
-            "violence": -10,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         },
         "third" :
         {
-            "ment": "최소한의 지성을 알아보기 위해 피타고라스의 정리를 물어본다",
-            "violence": 5,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         }, 
         "fourth" :
         {
-            "ment":"종족간의 평화를 제안하고 방심했을때 뒤통수를 친다",
-            "violence": 5,
-            "sane": 10
+            "ment": "고블린을 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
         }
     }
 }
