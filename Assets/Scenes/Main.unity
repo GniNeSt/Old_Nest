@@ -222,20 +222,52 @@ MonoBehaviour:
   choice:
     first:
       ment: 
-      violence: 0
-      sane: 0
+      success:
+        needviolence: 0
+        needsane: 0
+        violence: 0
+        sane: 0
+        ment: 
+      fail:
+        violence: 0
+        sane: 0
+        ment: 
     second:
       ment: 
-      violence: 0
-      sane: 0
+      success:
+        needviolence: 0
+        needsane: 0
+        violence: 0
+        sane: 0
+        ment: 
+      fail:
+        violence: 0
+        sane: 0
+        ment: 
     third:
       ment: 
-      violence: 0
-      sane: 0
+      success:
+        needviolence: 0
+        needsane: 0
+        violence: 0
+        sane: 0
+        ment: 
+      fail:
+        violence: 0
+        sane: 0
+        ment: 
     fourth:
       ment: 
-      violence: 0
-      sane: 0
+      success:
+        needviolence: 0
+        needsane: 0
+        violence: 0
+        sane: 0
+        ment: 
+      fail:
+        violence: 0
+        sane: 0
+        ment: 
   choiceManagerObject: {fileID: 1635054279}
   Goblin: {fileID: 8749302817991680212, guid: 70e13a45a1046634fbc813fda73ecd5c, type: 3}
   Ork: {fileID: -4469481312394968760, guid: e25b2ae7556721148889f372864a4fbf, type: 3}
@@ -424,8 +456,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hero: {fileID: 1364205254}
-  choiceviolence: 0
-  choicesane: 0
+  thisdata:
+    ment: 
+    success:
+      needviolence: 0
+      needsane: 0
+      violence: 0
+      sane: 0
+      ment: 
+    fail:
+      violence: 0
+      sane: 0
+      ment: 
 --- !u!61 &253690484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -550,8 +592,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hero: {fileID: 1364205254}
-  choiceviolence: 0
-  choicesane: 0
+  thisdata:
+    ment: 
+    success:
+      needviolence: 0
+      needsane: 0
+      violence: 0
+      sane: 0
+      ment: 
+    fail:
+      violence: 0
+      sane: 0
+      ment: 
 --- !u!61 &428754038
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -662,8 +714,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -877,8 +929,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1047,8 +1099,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1314,8 +1366,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1554,8 +1606,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hero: {fileID: 1364205254}
-  choiceviolence: 0
-  choicesane: 0
+  thisdata:
+    ment: 
+    success:
+      needviolence: 0
+      needsane: 0
+      violence: 0
+      sane: 0
+      ment: 
+    fail:
+      violence: 0
+      sane: 0
+      ment: 
 --- !u!61 &1756466342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1680,8 +1742,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hero: {fileID: 1364205254}
-  choiceviolence: 0
-  choicesane: 0
+  thisdata:
+    ment: 
+    success:
+      needviolence: 0
+      needsane: 0
+      violence: 0
+      sane: 0
+      ment: 
+    fail:
+      violence: 0
+      sane: 0
+      ment: 
 --- !u!61 &1806939412
 BoxCollider2D:
   m_ObjectHideFlags: 0

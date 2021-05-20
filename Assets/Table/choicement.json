@@ -447,5 +447,605 @@
               "ment": "실패멘트" 
             }
         }
+    },
+    "GodStatue":
+    {
+        "first" :
+        {
+            "ment": "오크를 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
+        },
+        "second" :
+        {
+            "ment": "도망친다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -5,
+                "sane": 5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -5,
+              "sane": 5,
+              "ment": "실패멘트" 
+            }
+        },
+        "third" :
+        {
+            "ment": "오크의 말을 따라해본다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -10,
+                "sane": -10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -10,
+              "sane": -10,
+              "ment": "실패멘트" 
+            }
+        }, 
+        "fourth" :
+        {
+            "ment": "오크를 사로잡는다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 5,
+                "sane": -5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 5,
+              "sane": -5,
+              "ment": "실패멘트" 
+            }
+        }
+    },
+    "Lake":
+    {
+        "first" :
+        {
+            "ment": "오크를 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
+        },
+        "second" :
+        {
+            "ment": "도망친다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -5,
+                "sane": 5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -5,
+              "sane": 5,
+              "ment": "실패멘트" 
+            }
+        },
+        "third" :
+        {
+            "ment": "오크의 말을 따라해본다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -10,
+                "sane": -10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -10,
+              "sane": -10,
+              "ment": "실패멘트" 
+            }
+        }, 
+        "fourth" :
+        {
+            "ment": "오크를 사로잡는다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 5,
+                "sane": -5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 5,
+              "sane": -5,
+              "ment": "실패멘트" 
+            }
+        }
+    },
+    "Mimic":
+    {
+        "first" :
+        {
+            "ment": "오크를 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
+        },
+        "second" :
+        {
+            "ment": "도망친다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -5,
+                "sane": 5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -5,
+              "sane": 5,
+              "ment": "실패멘트" 
+            }
+        },
+        "third" :
+        {
+            "ment": "오크의 말을 따라해본다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -10,
+                "sane": -10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -10,
+              "sane": -10,
+              "ment": "실패멘트" 
+            }
+        }, 
+        "fourth" :
+        {
+            "ment": "오크를 사로잡는다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 5,
+                "sane": -5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 5,
+              "sane": -5,
+              "ment": "실패멘트" 
+            }
+        }
+    },
+    "TreasureChest":
+    {
+        "first" :
+        {
+            "ment": "오크를 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
+        },
+        "second" :
+        {
+            "ment": "도망친다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -5,
+                "sane": 5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -5,
+              "sane": 5,
+              "ment": "실패멘트" 
+            }
+        },
+        "third" :
+        {
+            "ment": "오크의 말을 따라해본다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -10,
+                "sane": -10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -10,
+              "sane": -10,
+              "ment": "실패멘트" 
+            }
+        }, 
+        "fourth" :
+        {
+            "ment": "오크를 사로잡는다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 5,
+                "sane": -5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 5,
+              "sane": -5,
+              "ment": "실패멘트" 
+            }
+        }
+    },
+    "ArcherMob":
+    {
+        "first" :
+        {
+            "ment": "오크를 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
+        },
+        "second" :
+        {
+            "ment": "도망친다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -5,
+                "sane": 5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -5,
+              "sane": 5,
+              "ment": "실패멘트" 
+            }
+        },
+        "third" :
+        {
+            "ment": "오크의 말을 따라해본다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -10,
+                "sane": -10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -10,
+              "sane": -10,
+              "ment": "실패멘트" 
+            }
+        }, 
+        "fourth" :
+        {
+            "ment": "오크를 사로잡는다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 5,
+                "sane": -5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 5,
+              "sane": -5,
+              "ment": "실패멘트" 
+            }
+        }
+    },
+    "KnightMob":
+    {
+        "first" :
+        {
+            "ment": "오크를 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
+        },
+        "second" :
+        {
+            "ment": "도망친다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -5,
+                "sane": 5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -5,
+              "sane": 5,
+              "ment": "실패멘트" 
+            }
+        },
+        "third" :
+        {
+            "ment": "오크의 말을 따라해본다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -10,
+                "sane": -10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -10,
+              "sane": -10,
+              "ment": "실패멘트" 
+            }
+        }, 
+        "fourth" :
+        {
+            "ment": "오크를 사로잡는다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 5,
+                "sane": -5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 5,
+              "sane": -5,
+              "ment": "실패멘트" 
+            }
+        }
+    },
+    "MageMob":
+    {
+        "first" :
+        {
+            "ment": "오크를 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
+        },
+        "second" :
+        {
+            "ment": "도망친다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -5,
+                "sane": 5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -5,
+              "sane": 5,
+              "ment": "실패멘트" 
+            }
+        },
+        "third" :
+        {
+            "ment": "오크의 말을 따라해본다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -10,
+                "sane": -10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -10,
+              "sane": -10,
+              "ment": "실패멘트" 
+            }
+        }, 
+        "fourth" :
+        {
+            "ment": "오크를 사로잡는다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 5,
+                "sane": -5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 5,
+              "sane": -5,
+              "ment": "실패멘트" 
+            }
+        }
+    },
+    "WarriorMob":
+    {
+        "first" :
+        {
+            "ment": "오크를 공격한다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 10,
+                "sane": 10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 10,
+              "sane": 10,
+              "ment": "실패멘트" 
+            }
+        },
+        "second" :
+        {
+            "ment": "도망친다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -5,
+                "sane": 5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -5,
+              "sane": 5,
+              "ment": "실패멘트" 
+            }
+        },
+        "third" :
+        {
+            "ment": "오크의 말을 따라해본다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": -10,
+                "sane": -10,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": -10,
+              "sane": -10,
+              "ment": "실패멘트" 
+            }
+        }, 
+        "fourth" :
+        {
+            "ment": "오크를 사로잡는다.",
+            "success":
+            {
+                "needviolence:" : 0,
+                "needsane": 0,
+                "violence": 5,
+                "sane": -5,
+                "ment": "성공멘트"
+            },
+            "fail":
+            {
+              "violence": 5,
+              "sane": -5,
+              "ment": "실패멘트" 
+            }
+        }
     }
 }
