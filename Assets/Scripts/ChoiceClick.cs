@@ -7,8 +7,12 @@ public class ChoiceClick : MonoBehaviour{
     public GameObject hero;
     // private int thisnumber;
     public ChoiceEach thisdata;
+    private Animator animator;
+    private MentManager mentManager;
     private void Start() {
         choicemanager = GameObject.Find("ChoiceManager").GetComponent<ChoiceManager>();
+        animator = GameObject.Find("Ment").GetComponent<Animator>();
+        mentManager = GameObject.Find("Ment").GetComponent<MentManager>();
     }
     public void Init(ChoiceEach choice)
     {
@@ -20,15 +24,19 @@ public class ChoiceClick : MonoBehaviour{
         {
             Hero.violence += thisdata.success.violence;
             Hero.sane +=  thisdata.success.sane;
-            Debug.Log("Success!!");
+            Debug.Log(thisdata.success.ment);
             Debug.Log("ACT" + transform.name + ", Currnet Violence: " + Hero.violence.ToString() + ", Currnet Sane: " + Hero.sane.ToString());
+            animator.SetBool("isMent",true);
+            mentManager.SetMent(thisdata.success.ment);
         }
         else
         {
             Hero.violence += thisdata.fail.violence;
             Hero.sane +=  thisdata.fail.sane;
-            Debug.Log("Fail!!");
+            Debug.Log(thisdata.fail.ment);
             Debug.Log("ACT" + transform.name + ", Currnet Violence: " + Hero.violence.ToString() + ", Currnet Sane: " + Hero.sane.ToString());
+            animator.SetBool("isMent",true);
+            mentManager.SetMent(thisdata.fail.ment);
         }
         choicemanager.Move();
     }
