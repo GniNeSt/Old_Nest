@@ -350,14 +350,14 @@ MonoBehaviour:
   Wyvern: {fileID: 5336855417275088078, guid: cf42d3e962556a2478a45f4cd389768d, type: 3}
   Wolf: {fileID: -458185587419916677, guid: e537e2b4aae86e84488a29e23d3340bc, type: 3}
   Boar: {fileID: 3232954995629961432, guid: 2044c35ed320fc94eb54fcf28c1f1038, type: 3}
-  GodStatue: {fileID: 0}
-  Lake: {fileID: 0}
-  Mimic: {fileID: 0}
-  TreasureChest: {fileID: 0}
-  Archer: {fileID: 0}
-  Knight: {fileID: 0}
-  Mage: {fileID: 0}
-  Warrior: {fileID: 0}
+  GodStatue: {fileID: 4874205992174833999, guid: 6511704b162a8d84a843a9ce3021e0b8, type: 3}
+  Lake: {fileID: 1579276288095124783, guid: 722eb74affcdf0f42909114664e93654, type: 3}
+  Mimic: {fileID: 736238399224375723, guid: f0b60ba1e1e215c46ab856c06fb73420, type: 3}
+  TreasureChest: {fileID: -347051714107185806, guid: ad10d3dc7883947488d75361460fae4f, type: 3}
+  Archer: {fileID: -7132172409892320828, guid: fae5d74c342e03d4c97fa509ad064b0d, type: 3}
+  Knight: {fileID: -5711848221618334454, guid: fb9a974e430e6374fba6b26c14355623, type: 3}
+  Mage: {fileID: -7285376162372006033, guid: 4c88eb6001e65a142954683363b0aa93, type: 3}
+  Warrior: {fileID: -8180171696930044909, guid: ed9af3b05c2beeb448f29d8b9d65dad9, type: 3}
 --- !u!1 &237434735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,7 +1468,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1184910675
 MonoBehaviour:
   m_ObjectHideFlags: 0
