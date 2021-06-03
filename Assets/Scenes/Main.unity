@@ -367,7 +367,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 206034303}
-  - component: {fileID: 206034306}
   - component: {fileID: 206034305}
   - component: {fileID: 206034304}
   m_Layer: 0
@@ -417,7 +416,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
+  m_Size: {x: 70, y: 50}
   m_EdgeRadius: 0
 --- !u!114 &206034305
 MonoBehaviour:
@@ -428,29 +427,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 206034302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b7742477e165d440a5424f0aea16c05, type: 3}
+  m_Script: {fileID: 11500000, guid: c8e472012c417cd4fb079c09479deeff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   mentTMP: {fileID: 307484633}
---- !u!95 &206034306
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 206034302}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 62e63e0806c6c4c4cb85ade9fb1c46d3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &237434735
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,7 +679,7 @@ GameObject:
   - component: {fileID: 307484636}
   - component: {fileID: 307484635}
   m_Layer: 5
-  m_Name: MentTMP
+  m_Name: SettingMentTMP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -752,8 +733,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289656063
-  m_fontColor: {r: 1, g: 0.95592606, b: 0.6839622, a: 1}
+    rgba: 4294922496
+  m_fontColor: {r: 0, g: 0.31960154, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -770,15 +751,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1240,7 +1221,7 @@ GameObject:
   - component: {fileID: 930572002}
   - component: {fileID: 930572001}
   m_Layer: 5
-  m_Name: Button
+  m_Name: SettingButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3267,9 +3248,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1860832236}
   - component: {fileID: 1860832238}
-  - component: {fileID: 1860832237}
   m_Layer: 0
-  m_Name: Cover
+  m_Name: SettingCover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3289,25 +3269,6 @@ Transform:
   m_Father: {fileID: 206034303}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1860832237
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860832235}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1051f9a1a026ff4499abde89d1c06f56, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1860832238
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3349,7 +3310,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 0}
+  m_Color: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 0.6392157}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3372,7 +3333,7 @@ GameObject:
   - component: {fileID: 1955304789}
   - component: {fileID: 1955304788}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: SettingCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
