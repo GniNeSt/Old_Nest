@@ -1,29 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class bSetting : MonoBehaviour
 {
     private SpriteRenderer spriterenderer;
     private BoxCollider2D boxCollider2D;
-    private TMPro.TextMeshProUGUI textMeshPro;
+    private Canvas canvas;
     bool isClicked;
+    public Slider slider;
+    public AudioSource audioSource;
+    public TMPro.TextMeshProUGUI textMeshPro;
     // Start is called before the first frame update
     void Start()
     {
         spriterenderer = GameObject.Find("SettingCover").GetComponent<SpriteRenderer>();
         boxCollider2D = GameObject.Find("Settings").GetComponent<BoxCollider2D>();
-        textMeshPro = GameObject.Find("SettingMentTMP").GetComponent<TMPro.TextMeshProUGUI>();
+        canvas = GameObject.Find("SettingUICanvas").GetComponent<Canvas>();
         isClicked = false;
         spriterenderer.enabled = isClicked;
         boxCollider2D.enabled = isClicked;
-        textMeshPro.enabled = isClicked;
+        canvas.enabled = isClicked;
+        slider.value = (float)1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        audioSource.volume = slider.value;
+        textMeshPro.text = "음악 볼륨: " + ((int)(slider.value * 100)).ToString();
     }
 
     public void toggleSetting()
@@ -31,7 +37,7 @@ public class bSetting : MonoBehaviour
         isClicked = !isClicked;
         spriterenderer.enabled = isClicked;
         boxCollider2D.enabled = isClicked;
-        textMeshPro.enabled = isClicked;
+        canvas.enabled = isClicked;
         if (isClicked)
         {
             Time.timeScale = 0;
