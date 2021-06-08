@@ -8,6 +8,7 @@ public class Hero : MonoBehaviour
     public static int sane;
     public static Companion[] companions;
     public static int currentCompanion = 0;
+    public SceneChanger sceneChanger;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,8 @@ public class Hero : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (GroundManager.poscount >= 9)
+            sceneChanger.EndingViolence();
     }
 
     public static void addCompanion(Companion partner)

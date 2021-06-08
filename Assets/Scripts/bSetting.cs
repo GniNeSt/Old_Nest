@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class bSetting : MonoBehaviour
 {
     private SpriteRenderer spriterenderer;
-    private BoxCollider2D boxCollider2D;
+    private BoxCollider2D boxCollider2D,first,second,third,fourth,ment;
     private Canvas canvas;
     bool isClicked;
     public Slider slider;
@@ -18,6 +18,11 @@ public class bSetting : MonoBehaviour
         spriterenderer = GameObject.Find("SettingCover").GetComponent<SpriteRenderer>();
         boxCollider2D = GameObject.Find("Settings").GetComponent<BoxCollider2D>();
         canvas = GameObject.Find("SettingUICanvas").GetComponent<Canvas>();
+        first = GameObject.Find("first").GetComponent<BoxCollider2D>();
+        second = GameObject.Find("second").GetComponent<BoxCollider2D>();
+        third = GameObject.Find("third").GetComponent<BoxCollider2D>();
+        fourth = GameObject.Find("fourth").GetComponent<BoxCollider2D>();
+        ment = GameObject.Find("Ment").GetComponent<BoxCollider2D>();
         isClicked = false;
         spriterenderer.enabled = isClicked;
         boxCollider2D.enabled = isClicked;
@@ -38,6 +43,11 @@ public class bSetting : MonoBehaviour
         spriterenderer.enabled = isClicked;
         boxCollider2D.enabled = isClicked;
         canvas.enabled = isClicked;
+        first.enabled = !isClicked;
+        second.enabled = !isClicked;
+        third.enabled = !isClicked;
+        fourth.enabled = !isClicked;
+        ment.enabled = !isClicked;
         if (isClicked)
         {
             Time.timeScale = 0;

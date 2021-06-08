@@ -22,6 +22,7 @@ public class MentManager : MonoBehaviour
         if(animator.GetBool("isMent") == true){
             animator.SetTrigger("TriRead");
             animator.SetBool("isMent",false);
+            Debug.Log("Anim");
         }
     }
 }
