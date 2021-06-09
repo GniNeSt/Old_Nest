@@ -37,7 +37,7 @@ public class ChoiceManager : MonoBehaviour
     {
         isMoving = true;
         nextPosX = GroundManager.poscount + 1;
-        moveSpeed = 30f;
+        moveSpeed = 70f;
     }
 
     public void SetChoice(Choice choice){

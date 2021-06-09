@@ -9,6 +9,7 @@ public class ChoiceClick : MonoBehaviour{
     public ChoiceEach thisdata;
     private Animator animator;
     private MentManager mentManager;
+    public SceneChanger sceneChanger;
     private void Start() {
         choicemanager = GameObject.Find("ChoiceManager").GetComponent<ChoiceManager>();
         animator = GameObject.Find("Ment").GetComponent<Animator>();
@@ -38,6 +39,9 @@ public class ChoiceClick : MonoBehaviour{
             animator.SetBool("isMent",true);
             mentManager.SetMent(thisdata.fail.ment);
         }
-        choicemanager.Move();
+        if(GroundManager.poscount < 9)
+            choicemanager.Move();
+        else
+            sceneChanger.EndingViolence();
     }
 }

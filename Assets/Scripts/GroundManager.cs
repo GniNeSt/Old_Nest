@@ -18,7 +18,7 @@ public class GroundManager : MonoBehaviour
     public GameObject player;
     public GameObject background;
     public static int poscount;
-    static int backgroundsize = 90;
+    public static int backgroundsize = 90;
     private Vector3 playerPos;
     private GameObject clone;
     private string[] enemylist = {"Goblin","Ork","Wyvern","Wolf","GNoll","Boar","GodStatue","Lake","Mimic","TreasureChest","Archer","Knight","Mage","Warrior"};
