@@ -626,6 +626,7 @@ MonoBehaviour:
       violence: 0
       sane: 0
       ment: 
+  sceneChanger: {fileID: 1393960172}
 --- !u!61 &253690484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1086,6 +1087,7 @@ MonoBehaviour:
       violence: 0
       sane: 0
       ment: 
+  sceneChanger: {fileID: 1393960172}
 --- !u!61 &428754038
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2771,7 +2773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06065f5aaae430547a0cc6ba5a04ab79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneChanger: {fileID: 1393960172}
 --- !u!1 &1380568787
 GameObject:
   m_ObjectHideFlags: 0
@@ -3560,6 +3561,7 @@ MonoBehaviour:
       violence: 0
       sane: 0
       ment: 
+  sceneChanger: {fileID: 1393960172}
 --- !u!61 &1756466342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3696,6 +3698,7 @@ MonoBehaviour:
       violence: 0
       sane: 0
       ment: 
+  sceneChanger: {fileID: 1393960172}
 --- !u!61 &1806939412
 BoxCollider2D:
   m_ObjectHideFlags: 0
