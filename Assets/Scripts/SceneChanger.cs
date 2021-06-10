@@ -20,28 +20,32 @@ public class SceneChanger : MonoBehaviour
     public void ChangeMenu(){
         SceneManager.LoadScene("StartMenu");
     }
+
     public void EndingViolence(){
-        SceneManager.LoadScene("StartMenu");
+        SceneManager.LoadScene("EndingViolence");
     }
     public void EndingSane(){
-        SceneManager.LoadScene("StartMenu");
+        SceneManager.LoadScene("EndingSane");
     }
     public void EndingNonViolence(){
-        SceneManager.LoadScene("StartMenu");
+        SceneManager.LoadScene("EndingNonViolence");
     }
     public void EndingNonSane(){
-        SceneManager.LoadScene("StartMenu");
+        SceneManager.LoadScene("EndingNonSane");
     }
     public void EndingViolenceSane(){
-        SceneManager.LoadScene("StartMenu");
+        SceneManager.LoadScene("EndingViolenceSane");
     }
     public void EndingViolenceNonSane(){
-        SceneManager.LoadScene("StartMenu");
+        SceneManager.LoadScene("EndingViolenceNonSane");
     }
     public void EndingNonViolenceSane(){
-        SceneManager.LoadScene("StartMenu");
+        SceneManager.LoadScene("EndingNonViolenceSane");
     }
-    public void Normal(){
-        SceneManager.LoadScene("StartMenu");
+    public void EndingNonViolenceNonSane(){
+        SceneManager.LoadScene("EndingNonViolenceNonSane");
+    }
+    public void EndingNormal(){
+        SceneManager.LoadScene("EndingNormal");
     }
 }
