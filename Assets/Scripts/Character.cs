@@ -10,30 +10,19 @@ public class Character : MonoBehaviour
     public GameObject choiceManagerObject;
     private ChoiceManager choiceManager;
     public DataManager dataManager;
-    private bool isDataManagerDefined = false;
-    public Sprite Goblin;
-    public Sprite Ork;
-    public Sprite GNoll;
-    public Sprite Wyvern;
-    public Sprite Wolf;
-    public Sprite Boar;
-    public Sprite GodStatue;
-    public Sprite Lake;
-    public Sprite Mimic;
-    public Sprite TreasureChest;
-    public Sprite Archer;
-    public Sprite Knight;
-    public Sprite Mage;
-    public Sprite Warrior;
+    public static bool isCompanion = false;
+    public Sprite Goblin, Gnoll, Chicken, Wolf, Boar, Ork, 
+                  GodStatue, Lake, Mimic, TreasureChest,
+                  Archer, Knight, Mage, Warrior;
     public void Initialize(string thisname)
     {   
         enemyname = thisname;
-        if (!isDataManagerDefined)
-        {
-            dataManager = new DataManager();
-            isDataManagerDefined = true;
-        }
+        dataManager = new DataManager();
         choice = dataManager.giveChoice(enemyname);
+        if (enemyname == "Archer" || enemyname == "Knight" || enemyname == "Warrior" || enemyname == "Mage")
+            isCompanion = true;
+        else
+            isCompanion = false;
         choiceManager = choiceManagerObject.GetComponent<ChoiceManager>();
         choiceManager.SetChoice(choice);
         switch (thisname)
@@ -44,11 +33,11 @@ public class Character : MonoBehaviour
             case "Ork":
                 gameObject.GetComponent<SpriteRenderer>().sprite = Ork;
                 break;
-            case "GNoll":
-                gameObject.GetComponent<SpriteRenderer>().sprite = GNoll;
+            case "Gnoll":
+                gameObject.GetComponent<SpriteRenderer>().sprite = Gnoll;
                 break;
-            case "Wyvern":
-                gameObject.GetComponent<SpriteRenderer>().sprite = Wyvern;
+            case "Chicken":
+                gameObject.GetComponent<SpriteRenderer>().sprite = Chicken;
                 break;
             case "Wolf":
                 gameObject.GetComponent<SpriteRenderer>().sprite = Wolf;

@@ -10,6 +10,7 @@ public class ChoiceClick : MonoBehaviour{
     private Animator animator;
     private MentManager mentManager;
     public SceneChanger sceneChanger;
+    public Companion companion;
     private void Start() {
         choicemanager = GameObject.Find("ChoiceManager").GetComponent<ChoiceManager>();
         animator = GameObject.Find("Ment").GetComponent<Animator>();
@@ -29,6 +30,9 @@ public class ChoiceClick : MonoBehaviour{
             Debug.Log("ACT" + transform.name + ", Currnet Violence: " + Hero.violence.ToString() + ", Currnet Sane: " + Hero.sane.ToString());
             animator.SetBool("isMent",true);
             mentManager.SetMent(thisdata.success.ment);
+            if(Character.isCompanion && Hero.violence > companion.coefficentviolence && Hero.sane > companion.coefficentsane)
+                Debug.Log("ADD");
+
         }
         else
         {
