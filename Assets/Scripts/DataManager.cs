@@ -49,18 +49,14 @@ public class DataManager
 [System.Serializable]
 public class ChoicementSuccess
 {
-    public int needviolence;
-    public int needsane;
-    public int violence;
-    public int sane;
+    public int needviolence, needsane, violence, sane;
     public string ment;
 }
 
 [System.Serializable]
 public class ChoicementFail
 {
-    public int violence;
-    public int sane;
+    public int violence,sane;
     public string ment;
 }
 
@@ -75,40 +71,22 @@ public class ChoiceEach
 [System.Serializable]
 public class Choice
 {   
-    public ChoiceEach first;
-    public ChoiceEach second;
-    public ChoiceEach third;
-    public ChoiceEach fourth;
+    public ChoiceEach first,second,third,fourth;
 }
 
 [System.Serializable]
 public class Companion
 {
-    public int coefficentviolence;
-    public int coefficentsane;
+    public int coefficentviolence, coefficentsane;
 }
 
 
 [System.Serializable]
 public class Data
 {
-    public Choice Goblin;
-    public Choice Gnoll;
-    public Choice Chicken;
-    public Choice Wolf;
-    public Choice Boar;
-    public Choice Ork;
-    public Choice GodStatue;
-    public Choice Lake;
-    public Choice Mimic;
-    public Choice TreasureChest;
-    public Choice ArcherMob;
-    public Choice KnightMob;
-    public Choice MageMob;
-    public Choice WarriorMob;
-    public Companion Archer;
-    public Companion Knight;
-    public Companion Mage;
-    public Companion Warrior;
+    public Choice Goblin, Gnoll, Chicken, Wolf, Boar, Ork, 
+                  GodStatue, Lake, Mimic, TreasureChest,
+                  ArcherMob, KnightMob, MageMob, WarriorMob;
+    public Companion Archer,Knight,Mage,Warrior;
 
 }

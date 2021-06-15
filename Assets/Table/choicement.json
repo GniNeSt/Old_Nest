@@ -1046,5 +1046,25 @@
               "ment": "실패멘트" 
             }
         }
+    },
+    "Archer":
+    {
+      "coefficentviolence": 10,
+      "coefficentsane": 10
+    },
+    "Knight":
+    {
+      "coefficentviolence": 10,
+      "coefficentsane": 10
+    },
+    "Mage":
+    {
+      "coefficentviolence": 10,
+      "coefficentsane": 10
+    },
+    "Warrior":
+    {
+      "coefficentviolence": 10,
+      "coefficentsane": 10
     }
 }
