@@ -10,21 +10,21 @@ public class Character : MonoBehaviour
     public GameObject choiceManagerObject;
     private ChoiceManager choiceManager;
     public DataManager dataManager;
-    public static bool isCompanion = false;
     public Sprite Goblin, Gnoll, Chicken, Wolf, Boar, Ork, 
                   GodStatue, Lake, Mimic, TreasureChest,
-                  Archer, Knight, Mage, Warrior;
+                  ArcherMob, KnightMob, MageMob, WarriorMob;
     public void Initialize(string thisname)
     {   
         enemyname = thisname;
         dataManager = new DataManager();
-        choice = dataManager.giveChoice(enemyname);
-        if (enemyname == "Archer" || enemyname == "Knight" || enemyname == "Warrior" || enemyname == "Mage")
-            isCompanion = true;
-        else
-            isCompanion = false;
         choiceManager = choiceManagerObject.GetComponent<ChoiceManager>();
-        choiceManager.SetChoice(choice);
+
+        choice = dataManager.giveChoice(enemyname);
+        if (enemyname == "ArcherMob" || enemyname == "KnightMob" || enemyname == "WarriorMob" || enemyname == "MageMob")
+            choiceManager.SetChoice(choice,dataManager.giveCompanion(enemyname));
+        else
+            choiceManager.SetChoice(choice);
+        
         switch (thisname)
         {
             case "Goblin":
@@ -57,17 +57,17 @@ public class Character : MonoBehaviour
             case "TreasureChest":
                 gameObject.GetComponent<SpriteRenderer>().sprite = Mimic;
                 break;
-            case "Archer":
-                gameObject.GetComponent<SpriteRenderer>().sprite = Archer;
+            case "ArcherMob":
+                gameObject.GetComponent<SpriteRenderer>().sprite = ArcherMob;
                 break;
-            case "Knight":
-                gameObject.GetComponent<SpriteRenderer>().sprite = Knight;
+            case "KnightMob":
+                gameObject.GetComponent<SpriteRenderer>().sprite = KnightMob;
                 break;
-            case "Mage":
-                gameObject.GetComponent<SpriteRenderer>().sprite = Mage;
+            case "MageMob":
+                gameObject.GetComponent<SpriteRenderer>().sprite = MageMob;
                 break;
-            case "Warrior":
-                gameObject.GetComponent<SpriteRenderer>().sprite = Warrior;
+            case "WarriorMob":
+                gameObject.GetComponent<SpriteRenderer>().sprite = WarriorMob;
                 break;
             default:
                 gameObject.GetComponent<SpriteRenderer>().sprite = Goblin;

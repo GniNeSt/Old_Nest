@@ -40,10 +40,18 @@ public class ChoiceManager : MonoBehaviour
         moveSpeed = 70f;
     }
 
-    public void SetChoice(Choice choice){
+    public void SetChoice(Choice choice)
+    {
         first.GetComponent<ChoiceClick>().Init(choice.first);
         second.GetComponent<ChoiceClick>().Init(choice.second);
         third.GetComponent<ChoiceClick>().Init(choice.third);
         fourth.GetComponent<ChoiceClick>().Init(choice.fourth);
+    }
+    public void SetChoice(Choice choice, Companion companion)
+    {
+        first.GetComponent<ChoiceClick>().Init(choice.first,companion);
+        second.GetComponent<ChoiceClick>().Init(choice.second,companion);
+        third.GetComponent<ChoiceClick>().Init(choice.third,companion);
+        fourth.GetComponent<ChoiceClick>().Init(choice.fourth,companion);
     }
 }

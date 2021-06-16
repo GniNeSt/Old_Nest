@@ -14,9 +14,9 @@ public class DataManager
     public Choice giveChoice(string enemyname){
         if(enemyname == "Goblin")
            return data.Goblin; 
-        else if(enemyname == "GNoll")
+        else if(enemyname == "Gnoll")
             return data.Gnoll;
-        else if(enemyname == "Wyvern")
+        else if(enemyname == "Chicken")
             return data.Chicken;
         else if(enemyname == "Wolf")
             return data.Wolf;
@@ -32,16 +32,36 @@ public class DataManager
             return data.Mimic;
         else if(enemyname == "TreasureChest")
             return data.TreasureChest;
-        else if(enemyname == "Archer")
+        else if(enemyname == "ArcherMob")
             return data.ArcherMob;
-        else if(enemyname == "Knight")
+        else if(enemyname == "KnightMob")
             return data.KnightMob;
-        else if(enemyname == "Mage")
+        else if(enemyname == "MageMob")
             return data.MageMob;
-        else if(enemyname == "Warrior")
+        else if(enemyname == "WarriorMob")
             return data.WarriorMob;
         else
             return data.Goblin;
+    }
+    public Companion giveCompanion(string companion){
+        if(companion == "ArcherMob")
+        {
+            return data.Archer;
+        }
+        else if(companion == "KinghtMob")
+        {
+            return data.Knight;
+        }
+        else if (companion == "MageMob")
+        {
+            return data.Mage;
+        }
+        else if (companion == "WarriorMob")
+        {
+            return data.Warrior;
+        }
+        else
+            return data.Knight;
     }
 }
 

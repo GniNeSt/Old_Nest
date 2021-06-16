@@ -8,11 +8,12 @@ public class Hero : MonoBehaviour
     public static int sane;
     public static Companion[] companions;
     public static int currentCompanion = 0;
+    public GameObject prefab;
     
     // Start is called before the first frame update
     void Start()
     {
-        companions = new Companion[3];
+        companions = new Companion[10];
         violence = 0;
         sane = 0;
     }
@@ -27,5 +28,6 @@ public class Hero : MonoBehaviour
     {
         companions[currentCompanion] = partner;
         currentCompanion += 1;
+        Debug.Log("Current Companion: " + currentCompanion);
     }
 }

@@ -11,6 +11,7 @@ public class ChoiceClick : MonoBehaviour{
     private MentManager mentManager;
     public SceneChanger sceneChanger;
     public Companion companion;
+    private bool isCompanion = false;
     private void Start() {
         choicemanager = GameObject.Find("ChoiceManager").GetComponent<ChoiceManager>();
         animator = GameObject.Find("Ment").GetComponent<Animator>();
@@ -20,6 +21,14 @@ public class ChoiceClick : MonoBehaviour{
     {
         thisdata = choice; 
         transform.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = choice.ment + "\n 필요폭력수치:" + thisdata.success.needviolence.ToString() + "\n 필요이성수치:" + thisdata.success.needsane.ToString();
+        isCompanion = false;
+    }
+    public void Init(ChoiceEach choice,Companion comp)
+    {
+        thisdata = choice; 
+        transform.GetChild(0).GetComponent<TMPro.TextMeshPro>().text = choice.ment + "\n 필요폭력수치:" + thisdata.success.needviolence.ToString() + "\n 필요이성수치:" + thisdata.success.needsane.ToString();
+        companion = comp;
+        isCompanion = true;
     }
     private void OnMouseUp() {
         if(Hero.violence >= thisdata.success.needviolence && Hero.sane >= thisdata.success.needsane)
@@ -30,8 +39,9 @@ public class ChoiceClick : MonoBehaviour{
             Debug.Log("ACT" + transform.name + ", Currnet Violence: " + Hero.violence.ToString() + ", Currnet Sane: " + Hero.sane.ToString());
             animator.SetBool("isMent",true);
             mentManager.SetMent(thisdata.success.ment);
-            if(Character.isCompanion && Hero.violence > companion.coefficentviolence && Hero.sane > companion.coefficentsane)
+            if(isCompanion) // && Hero.violence > companion.coefficentviolence && Hero.sane > companion.coefficentsane
                 Debug.Log("ADD");
+                Hero.addCompanion(companion);
 
         }
         else

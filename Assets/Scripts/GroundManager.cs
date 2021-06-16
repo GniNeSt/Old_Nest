@@ -21,7 +21,10 @@ public class GroundManager : MonoBehaviour
     public static int backgroundsize = 90;
     private Vector3 playerPos;
     private GameObject clone;
-    private string[] enemylist = {"Archer","Knight","Mage","Warrior","Goblin","Ork","Chicken","Wolf","Gnoll","Boar","GodStatue","Lake","Mimic","TreasureChest","Archer","Knight","Mage","Warrior"};
+    private string[] enemylist = {"ArcherMob","KnightMob","MageMob","WarriorMob",
+                                  "Goblin","Ork","Chicken","Wolf","Gnoll","Boar",
+                                  "GodStatue","Lake","Mimic","TreasureChest",
+                                  "Archer","Knight","Mage","Warrior"};
     void Start()
     {
         poscount = 0;

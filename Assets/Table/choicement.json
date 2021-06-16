@@ -1049,22 +1049,22 @@
     },
     "Archer":
     {
-      "coefficentviolence": 10,
-      "coefficentsane": 10
+      "coefficentviolence": 0,
+      "coefficentsane": 0
     },
     "Knight":
     {
-      "coefficentviolence": 10,
-      "coefficentsane": 10
+      "coefficentviolence": 0,
+      "coefficentsane": 0
     },
     "Mage":
     {
-      "coefficentviolence": 10,
-      "coefficentsane": 10
+      "coefficentviolence": 0,
+      "coefficentsane": 0
     },
     "Warrior":
     {
-      "coefficentviolence": 10,
-      "coefficentsane": 10
+      "coefficentviolence": 0,
+      "coefficentsane": 0
     }
 }
